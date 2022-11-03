@@ -8,9 +8,11 @@ With this dataset, you could encounter challenges when comparing data if the are
 With 111 of the 166 campaigns launched being successful, May has the highest success rate. June takes a close second with 100 of its 153 being successful.
 ### Least Successful Launch Months
 December is not only the least popular month for launches, with only 75, but is also the least successful with just over half, or 37, being successful. The second least popular month for launching the campaigns was November, with 88 campaigns launched.
+
 ![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/116474586/199642375-de1b4465-9dc3-40c2-849b-150a247234b3.png)
 ## Outcomes Based on Goals
 To an extent, there is a higher fail rate the higher the goal of the campaign is. There are exceptions to this rule, such as in the $35000-$44999 goal range, where they have a higher success rate than failure rate. However overall, the higher the goal, the less likely the campaign is to succeed.
+
 ![Outcomes_vs_Goals](https://user-images.githubusercontent.com/116474586/199642405-0cab15b8-b737-4444-91b0-58973ec2d47b.png)
 ## Limitations
 While there are several conclusions to be drawn from this data, there are several factors outside of this data that also influences the success and failure of a campaign that cannot be taken into account. Such as the play itself, a dataset cannot say whether an idea for a play is good or bad. The proposal for the campaign, and how it is written can also affect it, as well as your location within a country that is not shown. Different cities and states prioritize the arts more than others, and that is not reflected here.

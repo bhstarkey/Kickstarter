@@ -1,24 +1,18 @@
 # Analysis of Kickstarter Campaigns
-## An Analysis of similarities between successful kickstarters
----
-### US Campaigns
----
-#### There are a few similarities between successful kickstarter campaigns that can help contribute to the success of a campaign. Overall, theatre is a successful category of Kickstarters. When narrowing down the categories, those for theatre in the US, 57.57% are successful. 
----
-![Count of US Theatre Outcomes](https://user-images.githubusercontent.com/116474586/199389942-aca661b7-c46b-47af-a98e-5228f61a9eb0.png)
----
-#### The similarities between them start with the launch date. The most successful month for campaign launches is May, with June a close second and July third. 13% of all successful campaigns were launched in May, and 36% were launched in May - July.
----
-![Outcomes Based on Launch Date ](https://user-images.githubusercontent.com/116474586/199389903-74862271-849a-4a76-98e4-7fed76f256a1.png)
----
-#### Another similarity between the successful campaigns, are the goals. 75% of all the play goals are under $5000, 50% under $3000, and 25% under $1500. While high goals have had the full amount pledged, failed campaigns have an average goal more than double that of successful ones. 75% of failed campaigns are under $10000, 50% are under $5000, and 25% are under 2000.
---- 
-### GB Campaigns
----
-#### In Great Britain, theater is a successful category as well. 72% of theater campaigns were successful, with 38% of campaigns for musicals being successful.
----
-![Category Outcomes](https://user-images.githubusercontent.com/116474586/199389858-006944b1-0802-4020-8fb8-2324cdeeb7e0.png)
----
-#### The pledged amounts compared to goal amounts should be taken into consideration when deciding the amount for a goal. While 75% of goals were under $5600, 75% of the pledged amounts were under $1500. 
----
-![Pledges and Goals Distribution](https://user-images.githubusercontent.com/116474586/199389963-f2bba4e0-7620-418a-9df9-9e035ff5ea63.png)
+## Overview
+Analyzing previous Kickstarter campaigns provides a powerful advantage when planning a launch. It can help determine not only when to launch your campaign, but also where to set your goal in order to help make your campaign as successful as possible. This analysis of the launch dates looks at past Kickstarter campaigns in the theater category, and the analysis of the outcomes based on goals looks at the play subcategory.
+## Challenges
+With this dataset, you could encounter challenges when comparing data if the area you are looking at does not have enough campaigns to provide a comparison or any kind of trend line. You could also run into an issue if the data you are looking at is outdated, and no longer applicable to your campaign.
+## Outcomes by Launch Date
+### Most Successful Launch Months
+With 111 of the 166 campaigns launched being successful, May has the highest success rate. June takes a close second with 100 of its 153 being successful.
+### Least Successful Launch Months
+December is not only the least popular month for launches, with only 75, but is also the least successful with just over half, or 37, being successful. The second least popular month for launching the campaigns was November, with 88 campaigns launched.
+![Theater_Outcomes_vs_Launch](https://user-images.githubusercontent.com/116474586/199642375-de1b4465-9dc3-40c2-849b-150a247234b3.png)
+## Outcomes Based on Goals
+To an extent, there is a higher fail rate the higher the goal of the campaign is. There are exceptions to this rule, such as in the $35000-$44999 goal range, where they have a higher success rate than failure rate. However overall, the higher the goal, the less likely the campaign is to succeed.
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/116474586/199642405-0cab15b8-b737-4444-91b0-58973ec2d47b.png)
+## Limitations
+While there are several conclusions to be drawn from this data, there are several factors outside of this data that also influences the success and failure of a campaign that cannot be taken into account. Such as the play itself, a dataset cannot say whether an idea for a play is good or bad. The proposal for the campaign, and how it is written can also affect it, as well as your location within a country that is not shown. Different cities and states prioritize the arts more than others, and that is not reflected here.
+## Recommendations
+With the given data set, there are a few more possibilities of things you can compare, that may help contribute to a campaign’s success. I would look at the average time a successful vs failed campaign is live, and if there is any correlation there. I would also look at the difference between the deadlines and launch dates of successful and failed campaigns and see if how long they give a campaign to meet it’s deadline has any influence on a campaign. I would also look at the trend lines with staff picks and at whether or not being a staff pick makes your campaign more successful.

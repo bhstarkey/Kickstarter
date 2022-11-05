@@ -1,6 +1,8 @@
 # Analysis of Kickstarter Campaigns
 ## Overview
 Analyzing previous Kickstarter campaigns provides a powerful advantage when planning a launch. It can help determine not only when to launch your campaign, but also where to set your goal in order to help make your campaign as successful as possible. This analysis of the launch dates looks at past Kickstarter campaigns in the theater category, and the analysis of the outcomes based on goals looks at the play subcategory.
+## Analysis
+Based on the data given, We filtered out for the category and subcategory that would be most applicable to our analysis. We then looked at the goals of each of them, and compared the numbers of successful campaigns to unsuccessful ones. We also looked at the launch date of campaigns. We saww how that affected the overall preformance of the campaigns, and whether or not it had a significant impact on them.
 ## Challenges
 With this dataset, you could encounter challenges when comparing data if the area you are looking at does not have enough campaigns to provide a comparison or any kind of trend line. You could also run into an issue if the data you are looking at is outdated, and no longer applicable to your campaign.
 ## Outcomes by Launch Date
